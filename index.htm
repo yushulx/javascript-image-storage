@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+    <title>FileSystem Demo</title>
+</head>
+
+<body>
+    <form name="uploadForm">
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <input type="button" id="load" value="Load image" onclick="document.getElementById('upload').click();" />
+                        <input type="file" id="upload" onchange="loadImage();" style="display:none;" />
+                        <input type="button" id="btVideo" value="Load video" onclick="" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>
+            <button id="prev" type="button">Previous</button>
+            <button id="next" type="button">Next</button>
+            <button id="btRemove" type="button">Remove</button>
+        </p>
+        <p>
+            <button id="btDetect" type="button">Detect document edge</button>
+        </p>
+        <canvas id="canvas" width="480" height="640" />
+        <script src="app.js"></script>
+    </form>
+</body>
+
+</html>
