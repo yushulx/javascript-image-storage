@@ -15,4 +15,3 @@ This is a simple web document management app. You can have fun with the HTML5 ap
 * https://github.com/ucisysarch/opencvjs
 * https://www.html5rocks.com/en/tutorials/file/filesystem/
 
-[Building Python Barcode Extension with DBR 5.2 for Linux](http://www.codepool.biz/build-linux-python-barcode-extension.html)
