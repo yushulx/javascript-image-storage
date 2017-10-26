@@ -9,7 +9,7 @@ This is a simple web document management app. You can have fun with the HTML5 ap
 1. Deploy the project to your web server.
 2. Open **http://localhost:1818** in Chrome.
 
-    ![document edge detection with opencv.js](screenshot/web-document-management.png)
+    ![document edge detection with opencv.js](screenshot/document-edge.png)
 
 ## Reference
 * https://github.com/ucisysarch/opencvjs
