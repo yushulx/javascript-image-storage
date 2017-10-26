@@ -4,6 +4,17 @@
 <head>
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
     <title>FileSystem Demo</title>
+    <style type="text/css">
+        #container {
+            width: 100%;
+            display: flex;
+        }
+
+        #splitter {
+            width: 1px;
+            color: white
+        }
+    </style>
 </head>
 
 <body>
@@ -27,7 +38,18 @@
         <p>
             <button id="detect" type="button">Detect document edge</button>
         </p>
-        <canvas id="canvas" />
+        <div id='container'>
+            <p>
+                <canvas id="canvas" />
+            </p>
+            <p id='splitter' />
+            <p>
+                <canvas id="dynamsoft" />
+            </p>
+
+        </div>
+
+
         <script src="app.js"></script>
     </form>
     <script async src="cv.js"></script>

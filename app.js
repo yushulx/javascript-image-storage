@@ -499,7 +499,7 @@ function findEdges() {
   var cthresh = 75;
   cv.blur(src, blurred, [5, 5], [-1, -1], 4);
   cv.Canny(blurred, canny_output, cthresh, cthresh * 2, 3, 0);
-  show_image(canny_output, "canvas")
+  show_image(canny_output, "dynamsoft")
   src.delete();
   blurred.delete();
   canny_output.delete();
