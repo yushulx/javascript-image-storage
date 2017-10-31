@@ -15,3 +15,5 @@ This is a simple web document management app. You can have fun with the HTML5 ap
 * https://github.com/ucisysarch/opencvjs
 * https://www.html5rocks.com/en/tutorials/file/filesystem/
 
+## Blog
+[A Simple Web Document Management App with OpenCV.js](http://www.codepool.biz/web-document-management-opencv-javascript.html)
